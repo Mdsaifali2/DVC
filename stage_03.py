@@ -1,0 +1,9 @@
+with open("artifact.txt", mode="r") as f:
+    text = f.read()
+    
+with open("arifact.txt", "w") as f:
+    text = f.write(text + "i have added one line")
+    
+
+print(text)
+print("it is a end of stage 3")

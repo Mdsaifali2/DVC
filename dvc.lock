@@ -21,5 +21,16 @@ stages:
       size: 33
     - path: stage_02.py
       hash: md5
-      md5: 2a6373ef2f30f7ddd3ed1a0c4860d0e5
-      size: 77
+      md5: 08550d384ce2a62fe08d10c815ab397f
+      size: 146
+  stage_03:
+    cmd: python stage_03.py
+    deps:
+    - path: artifact.txt
+      hash: md5
+      md5: 6ccae31f17ec78a3cf4c62d87d04d9f9
+      size: 33
+    - path: stage_03.py
+      hash: md5
+      md5: 0fdc35dd43db5f3ada39f5d0186e20cc
+      size: 211
