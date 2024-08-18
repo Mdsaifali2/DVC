@@ -1,0 +1,4 @@
+[core]
+    remote = myremote
+['remote "myremote"']
+    url = C:/Users/SAIF/AppData/Local/Temp/dvcstore1~
