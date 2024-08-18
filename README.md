@@ -31,3 +31,11 @@ dvc repro
 '''
 dvc dag
 '''
+
+'''dvc add <file name>'''
+
+'''git add <file name> && git commit -m "message as u wish"'''
+
+'''dvc remote add myremote <provide remote location here>'''
+
+'''dvc push'''
